@@ -32,6 +32,9 @@ return {
         return '%2l:%-2v'
       end
 
+      require('mini.files').setup()
+
+      vim.keymap.set('n', '<leader>pv', MiniFiles.open, { desc = 'Open mini.files' })
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
@@ -39,4 +42,3 @@ return {
 }
 
 -- vim: ts=2 sts=2 sw=2 et
-
