@@ -19,11 +19,11 @@ return {
         desc = 'Find Files',
       },
       {
-        '<leader>s.',
+        '<leader>sb',
         function()
-          Snacks.picker.recent()
+          Snacks.picker.buffers()
         end,
-        desc = 'Recent',
+        desc = 'Find open buffers',
       },
       -- grep
       {
@@ -34,7 +34,7 @@ return {
         desc = 'Grep',
       },
       {
-        '<leader>sb',
+        '<leader>sl',
         function()
           Snacks.picker.lines()
         end,
