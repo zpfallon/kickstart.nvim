@@ -31,6 +31,7 @@ require('lazy').setup({
   require 'zfallon.plugins.cmp',
 
   require 'zfallon.plugins.gruvbox',
+  -- require 'zfallon.plugins.rose-pine',
 
   require 'zfallon.plugins.todo-comments',
 
