@@ -22,7 +22,8 @@ require('lazy').setup({
 
   require 'zfallon.plugins.which-key',
 
-  require 'zfallon.plugins.telescope',
+  -- require 'zfallon.plugins.telescope',
+  require 'zfallon.plugins.snacks',
 
   require 'zfallon.plugins.lspconfig',
 
